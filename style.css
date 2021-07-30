@@ -1,0 +1,22 @@
+.coordinates {
+    display:flex;
+    border-radius:5%;
+    margin:30px auto;
+}
+.readout {
+    display:flex;
+   justify-content: center;
+   font-family: 'Teko', sans-serif;
+   font-size: 16pt;
+}
+.globe{
+    position:relative; 
+}
+.station{
+    position:absolute; 
+    left:350px;
+
+   z-index:5;
+   border-radius:20%;
+   
+}
